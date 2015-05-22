@@ -105,3 +105,8 @@ print(conteo_ordenes)
 
 prediccion <- select(predict_test, fecha, conteo_ordenes)
 write.csv(prediccion, "/home/carolinaog/Metodos2015/HW8/CM20151_HW8_CarolinaOrtiz/prediccion1_cortiz84.csv", row.names=FALSE)
+
+
+##1. Qué otros datos pueden ayudarlo a mejorar su predicción? Otros datos que ayudarían a la predicción
+##2. Cuál día de la semana presenta el número mayor de órdenes?
+###3. Cuál día de la semana presenta el menor número de órdenes?
